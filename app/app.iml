@@ -56,14 +56,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -72,6 +64,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -119,24 +119,25 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\ajt-2.9.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\Jama-1.0.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-v13-25.0.0" level="project" />
     <orderEntry type="library" name="junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" name="com.github.chrisbanes.photoview:library-1.2.4" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\javaml-0.1.7.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-25.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\javaml-0.1.7.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\commons-math-1.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-media-compat-25.1.0" level="project" />
     <orderEntry type="library" name="com.wx.wheelview:wheelview-1.3.3" level="project" />
     <orderEntry type="library" name="com.afollestad.material-dialogs:core-0.9.1.0" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" name="me.zhanghai.android.materialprogressbar:library-1.3.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\libsvm.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:25.1.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-25.1.0" level="project" />
     <orderEntry type="library" name="com.nostra13.universalimageloader:universal-image-loader:1.9.5@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-25.1.0" level="project" />
     <orderEntry type="library" name="org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\ajt-2.9.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.lqr.imagepicker:library-1.0.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-25.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.1.0" level="project" />
@@ -144,13 +145,12 @@
     <orderEntry type="library" name="org.litepal.android:core-1.6.1" level="project" />
     <orderEntry type="library" name="com.github.PhilJay:MPAndroidChart:v3.0.3@jar" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-25.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\commons-math-1.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-25.1.0" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\weka.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:F.\GitHub\IMURecorder\app\libs\libsvm.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:recyclerview-v7-25.0.0" level="project" />
     <orderEntry type="library" name="pl.droidsonroids.gif:android-gif-drawable-1.1.7" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-25.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\weka.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:F.\GitHub\Fit-iCoach-master\app\libs\Jama-1.0.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
     <orderEntry type="module" module-name="tableLayout" />
     <orderEntry type="module" module-name="pictureselector" />

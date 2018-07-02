@@ -1,17 +1,17 @@
 {
   "buildFiles": [
-    "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk",
-    "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk"
+    "F:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Android.mk",
+    "F:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Application.mk"
   ],
   "cleanCommands": [
-    "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips64 NDK_ALL_ABIS\u003dmips64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+    "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips64 NDK_ALL_ABIS\u003dmips64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/IMURecorder/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\IMURecorder\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
   ],
   "libraries": {
     "jni-dtw-debug-mips64": {
       "artifactName": "jni-dtw",
-      "buildCommand": "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips64 NDK_ALL_ABIS\u003dmips64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib F:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj/local/mips64/libjni-dtw.so",
+      "buildCommand": "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\IMURecorder\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dmips64 NDK_ALL_ABIS\u003dmips64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/IMURecorder/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\IMURecorder\\app\\build\\intermediates\\ndkBuild\\debug\\lib F:/GitHub/IMURecorder/app/build/intermediates/ndkBuild/debug/obj/local/mips64/libjni-dtw.so",
       "abi": "mips64",
-      "output": "F:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\mips64\\libjni-dtw.so"
+      "output": "F:\\GitHub\\IMURecorder\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\mips64\\libjni-dtw.so"
     }
   }
 }
