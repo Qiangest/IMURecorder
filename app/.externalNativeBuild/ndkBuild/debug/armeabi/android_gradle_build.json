@@ -1,0 +1,69 @@
+{
+  "buildFiles": [
+    "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk",
+    "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "jni-dtw-debug-armeabi": {
+      "buildCommand": "D:\\AndroidSdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib F:/GitHub/Fit-iCoach-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi/libjni-dtw.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "jni-dtw",
+      "files": [
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\ColMajorCell.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\FastDTW.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\SearchWindow.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\WarpPath.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\analysis.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\dtw.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\dtw_Impl.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\emd.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\emd_interface.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "F:\\GitHub\\Fit-iCoach-master\\app\\src\\main\\jni\\test.cpp",
+          "flags": "-gcc-toolchain D:/AndroidSdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi21 -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport -ID:/AndroidSdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include -IF:/GitHub/Fit-iCoach-master/app/src/main/jni -fexceptions -frtti -std\u003dc++11 -fpermissive -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -frtti --sysroot D:/AndroidSdk/ndk-bundle/build//../sysroot -isystem D:/AndroidSdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "F:\\GitHub\\Fit-iCoach-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi\\libjni-dtw.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "D:\\AndroidSdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
