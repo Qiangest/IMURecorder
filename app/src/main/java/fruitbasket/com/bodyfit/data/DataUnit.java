@@ -27,9 +27,9 @@ public class DataUnit {
         //getIntFromByteArray(data, 0, 2); 时间
         //getIntFromByteArray(data, 2, 2);
         time = getIntFromByteArray(data, 0, 2) / 100.0;
-        dataUnit[0] = getIntFromByteArray(data, 10, 2) * SensorManager.GRAVITY_EARTH / 2048.0;
-        dataUnit[1] = getIntFromByteArray(data, 12, 2) * SensorManager.GRAVITY_EARTH / 2048.0;
-        dataUnit[2] = getIntFromByteArray(data, 14, 2) * SensorManager.GRAVITY_EARTH / 2048.0;
+        dataUnit[0] = getIntFromByteArray(data, 10, 2) * SensorManager.GRAVITY_EARTH / 4096.0;
+        dataUnit[1] = getIntFromByteArray(data, 12, 2) * SensorManager.GRAVITY_EARTH / 4096.0;
+        dataUnit[2] = getIntFromByteArray(data, 14, 2) * SensorManager.GRAVITY_EARTH / 4096.0;
         dataUnit[3] = getIntFromByteArray(data, 18, 2) / 65.5;
         dataUnit[4] = getIntFromByteArray(data, 20, 2) / 65.5;
         dataUnit[5] = getIntFromByteArray(data, 22, 2) / 65.5;
